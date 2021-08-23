@@ -1,0 +1,227 @@
+O comando split é usado para converter uma string em uma lista, sendo que uma string delimitadora é definida para que cada índice da lista seja criada a partir da string inteira. Essa string delimitadora normalmente é o caracter '\n', ',', '.' ou qualquer string que for coerente, não importa o tamanho. Seguindo esse raciocínio, observe a lista abaixo:
+
+["O alfabeto é composto pelas vogais a", " e", " i", " o e u."]
+
+
+
+Sendo assim, assinale a alternativa abaixo que represente a string original cujo split gerou a lista acima:
+
+    ‘O alfabeto é composto pelas vogais a, e, i, o e u.’  - RESPOSTA - ESSA
+    
+    ‘O alfabeto é composto pelas vogais a, e, i, o u.’
+    ‘O alfabeto é composto pelas vogais a e i o u.’
+    ‘O alfabeto é composto pelas vogais: a, e, i, o e u.’
+    ‘O alfabeto é composto pelas vogais a, e, i, o, u.’
+
+
+Dentro de um módulo Python, qual o comando para  importar uma Classe que esteja em outra módulo Python mas no mesmo projeto?
+
+    from modulo import Classe  - RESPOSTA - ESSA
+    
+    import modulo.Classse
+    from . import Classe
+    import modulo
+    
+    import Classe
+
+
+Dado as afirmações abaixo referente  ao tipo “list” assinale a alternativa correta:
+
+
+
+I - A função pop() remove o último elemento de uma lista ou elemento da posição informada.
+
+II - A função remove() remove um elemento de uma lista pelo nome do elemento.
+
+III - A função append() acrescenta uma novo valor a lista, esse valor é sempre adicionado ao final da lista.
+
+    I e II estão corretas.
+    
+    Apenas a afirmação III é correta.
+    Apenas a afirmação I é correta.
+    II e III estão corretas.
+    Todas estão corretas. - RESPOSTA - ESSA
+
+
+Leia as sentenças e assinale a alternativa correta.
+
+I – O uso das aspas é fundamental para variáveis e strings.
+
+II – O comando print é usado para imprimir textos.
+
+III – Para acessar o terminal Python usa-se o comando Python no prompt de comando.
+
+    Apenas I está errada.  RESPOSTA - ESSA
+    
+    I e II estão corretas.
+    Apenas II está correta.
+    Todas estão erradas.
+    II e III estão erradas.
+
+
+
+Um professor pediu ajuda para você organizar as notas dos alunos de provas que ocorreram ao longo do ano trimestralmente, mas ainda a última não foi aplicada. Ele disse que para o aluno ser aprovado requisita ter a média das notas igual ou superior a 7. Ele te passou algumas diretrizes na qual você converteu rapidamente em Python:
+
+media = 7
+
+numeroProvas = 3
+
+
+
+Avalie as seguintes afirmativas:
+
+I - A média do aluno poderia ser obtida por (nota1 + nota2 + nota3) / numeroProvas
+
+II - O aluno é aprovado se passar na condição if mediaAluno >= media
+
+III - Se nota1, por exemplo, for igual a 1, o aluno já iria reprovar automaticamente.
+
+IV - Se nota1, por exemplo, for igual a 0, o aluno já iria reprovar automaticamente.
+
+
+
+Estão corretas as afirmativas:
+
+    Apenas I e III.
+    Apenas I, II e III.
+    I, II, III e IV.
+    Apenas I e IV.
+    Apenas I, II e IV. - RESPOSTA - ESSA
+
+
+
+Um professor pediu ajuda para você organizar as notas dos alunos de provas que ocorreram ao longo do ano trimestralmente, mas ainda a última não foi aplicada. Ele disse que para o aluno ser aprovado requisita ter a média das notas igual ou superior a 7. Ele te passou algumas diretrizes na qual você converteu rapidamente em Python:
+
+media = 7
+
+numeroProvas = 3
+
+
+
+Avalie as seguintes afirmativas:
+
+I - A média do aluno poderia ser obtida por (nota1 + nota2 + nota3) / numeroProvas
+
+II - O aluno é aprovado se passar na condição if mediaAluno >= media
+
+III - Se nota1, por exemplo, for igual a 1, o aluno já iria reprovar automaticamente.
+
+IV - Se nota1, por exemplo, for igual a 0, o aluno já iria reprovar automaticamente.
+
+
+
+Estão corretas as afirmativas:
+
+    Apenas I e III.
+    Apenas I, II e III.
+    
+    Apenas I e IV.
+    I, II, III e IV.
+    Apenas I, II e IV. - RESPOSTA - ESSA
+
+
+Dado dois conjuntos armazenados na variável “conjunto_a” e “conjunto_b”, qual o comando corretado para verificar o valor que existe em “conjunto_a” mas não existe em “conjunto_b”?
+
+    conjunto_b.difference(conjunto_a)
+    conjunto_a.intersection(conjunto_b)
+    conjunto_a.issubset(conjunto_b)
+    conjunto_a.difference(conjunto_b) - RESPOSTA - ESSA
+    conjunto_a.symmetric_difference(conjunto_b)
+
+
+
+Você está em uma festa de aniversário e está tendo confusão para distribuir de modo justo a quantidade de brigadeiro entre os participantes. Todos, por alguma coincidência, entendem de Python, então você planeja o seguinte código:
+
+brigadeiros = 150
+
+pessoas = 16
+
+
+
+Por você ter feito a conta e evitado aumento da confusão, todos decidiram dar a você além da divisão justa, o resto dos brigadeiros que sobraram da conta. Assim avalie as afirmativas abaixo:
+
+I - Cada pessoa irá receber int(brigadeiros/pessoas)
+
+II - Você receberá int(brigadeiros % pessoas) + (brigadeiros % pessoas)
+
+III - Cada pessoa irá receber int(brigadeiros % 2)
+
+IV - Você receberá int(brigadeiros/pessoas) + (brigadeiros % pessoas)
+
+
+
+Estão corretas as afirmativas:
+
+    Apenas I e IV. -RESPOSTA - ESSA
+    
+    Apenas II e III.
+    Apenas IV.
+    Apenas I.
+    Apenas I e III.
+
+
+
+Qual a função do comando raise conforme o código abaixo:
+
+
+
+bandas_metal = ['Iron Maiden', 'Angra', 'Slayer', 'Megadeth', 'Krisiun']
+
+nova_banda = 'Caetano Veloso'
+
+if nova_banda not in bandas_metal:
+
+  raise InputError('{} não é metal!'.format(nova_banda))
+
+    O raise forçará uma mensagem de erro personalizada se 'Caetano Veloso' não for encontrada na lista de bandas_metal. - RESPOSTA - ESSA
+    
+    O raise forçará uma mensagem de erro personalizada se 'Caetano Veloso' for encontrado na lista de bandas_metal.
+    O raise fará com que mesmo que 'Caetano Veloso' estivesse na lista bandas_metal, ele seria removido.
+    O raise faz com que 'Caetano Veloso' seja incluído na lista bandas_metal, mas ocorrerá um erro logo a seguir.
+    O raise dará erro de que 'Caetano Veloso' não está na lista bandas_metal, mas será incluído logo após o erro.
+
+
+
+Na aula foi ensinado a como distinguir se um determinado número é ou não primo. Avalie o trecho do código abaixo, porém contendo lacunas:
+
+a = int(input('Entre com o número: '))
+
+div = 0
+
+for x in range(1, ___):
+
+	resto = a % x
+
+	if _____ == 0:
+
+		____ += 1
+
+
+
+if div == ____ :
+
+	print('número {} é primo'.format(___))
+
+else:
+
+	print('número {} não é primo'.format(___))
+
+
+
+Assinale a alternativa correta que contenha a sequência correta de elementos capazes de preencher corretamente as lacunas do código acima (a vírgula separa cada elemento):
+
+    a+1, resto, div, 2, a, a -RESPOSTA - ESSA
+    
+    a+1, a, div, 2, a, a
+    a, resto, div, 2, a, a
+    a+1, resto, x, 2, a, a
+    a+1, resto, div, x, a, a
+
+
+
+
+
+
+
+
+
